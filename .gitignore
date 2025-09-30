@@ -1,0 +1,10 @@
+helix/
+kde.org/
+kiorc
+QtProject.conf
+dolphinrc
+pulse/
+session/
+dconf/
+trashrc
+nushell/history.txt
