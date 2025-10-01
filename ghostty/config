@@ -47,3 +47,4 @@ background = #19181A
 
 font-family = "0xProtoNerdFontMono"
 command = "/usr/bin/nu"
+mouse-scroll-multiplier = 0.5
