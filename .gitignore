@@ -9,3 +9,8 @@ session/
 dconf/
 trashrc
 nushell/history.txt
+Zulip/
+Electron/
+obs-studio/
+user-dirs.*
+git-graph/
