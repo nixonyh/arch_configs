@@ -46,5 +46,6 @@ theme = Monokai Pro
 background = #19181A
 
 font-family = "0xProtoNerdFontMono"
+font-size = 11
 command = "/usr/bin/nu"
 mouse-scroll-multiplier = 0.5

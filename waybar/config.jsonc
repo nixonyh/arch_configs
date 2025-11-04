@@ -7,19 +7,21 @@
     "gtk-layer-shell": true,
     "height": 0,
     "modules-left": [
-        "clock",
-        "hyprland/workspaces",
-    ],
-    "modules-center": ["hyprland/window"],
-    "modules-right": [
-        "tray",
-        "memory",
-        "cpu",
         "network",
         "battery",
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone",
+        "hyprland/workspaces",
+    ],
+    "modules-center": [
+        "hyprland/window",
+    ],
+    "modules-right": [
+        "tray",
+        "memory",
+        "cpu",
+        "clock",
     ],
 
     "hyprland/window": {
@@ -40,7 +42,7 @@
     },
 
     "clock": {
-        "format": "{:%A    %B-%d    %H:%M}",
+        "format": "{:%B-%d  %H:%M}",
         "interval": 1,
         "rotate": 0,
         "tooltip-format": "<tt>{calendar}</tt>",
@@ -81,9 +83,9 @@
     },
 
     "pulseaudio": {
-        "format": "{icon}  {volume}%",
+        "format": "{icon} {volume}%",
         "tooltip": false,
-        "format-muted": "  Muted",
+        "format-muted": " Muted",
         "on-click": "pamixer -t",
         "on-scroll-up": "pamixer -i 1",
         "on-scroll-down": "pamixer -d 1",
@@ -135,8 +137,8 @@
 
     "network": {
         "tooltip": true,
-        "format-wifi": "  {essid}",
-        "format-ethernet": "󰈀 ",
+        "format-wifi": " {essid}",
+        "format-ethernet": "󰈀",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
