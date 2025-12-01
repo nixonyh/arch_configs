@@ -12,5 +12,27 @@ nushell/history.txt
 Zulip/
 Electron/
 obs-studio/
-user-dirs.*
 git-graph/
+1Password/
+BraveSoftware/
+GitHub Desktop/
+JetBrains/
+Serial Monitor/
+Vial/
+autostart/
+baloofileinformationrc
+chromium/
+fontconfig/
+gh/
+google-chrome-beta/
+google-chrome-unstable/
+google-chrome/
+kdeglobals
+kicad/
+ktrashrc
+microsoft-edge-dev/
+mimeapps.list
+qBittorrent/
+vivaldi-snapshot/
+vivaldi/
+user-dirs.*
