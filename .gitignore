@@ -36,3 +36,7 @@ qBittorrent/
 vivaldi-snapshot/
 vivaldi/
 user-dirs.*
+filetypesrc
+go/
+pavucontrol.ini
+systemd/
