@@ -16,5 +16,5 @@
 # You can also pretty-print and page through the documentation for configuration
 # options using:
 #     config nu --doc | nu-highlight | less -R
-source $"($nu.home-path)/.cargo/env.nu"
+# source "~/.cargo/env.nu"
 source ~/.zoxide.nu
