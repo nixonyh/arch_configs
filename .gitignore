@@ -40,3 +40,7 @@ filetypesrc
 go/
 pavucontrol.ini
 systemd/
+unityhub/
+unity3d/
+kconf_updaterc
+kactivitymanagerdrc
